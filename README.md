@@ -2,20 +2,30 @@
 
 Create images from hashes.
 
+![icon examples](hash2image-sample.png)
+
 This is an adaptation of Colin Davis' code at [Robohash.org](https://robohash.org/)
 
 ## Installation
 
 ### 1. Docker
 
+From dockerhub:
+
+```sh
+$ docker run -d -p 8099:8099 tedlaz/hash2image
+```
+
+or by yourself:
+
 ```sh
 $ git clone https://github.com/tedlaz/hash2image.git
 $ cd hash2image
 $ docker build -t hash2image .
-$ docker run -d --rm -p 8099:8099 hash2image
+$ docker run -d -p 8099:8099 hash2image
 ```
 
-Open browser at:
+In either case open your browser at:
 
 ```
 localhost:8099/"Your text to hash and image"?size=300
