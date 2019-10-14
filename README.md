@@ -2,7 +2,7 @@
 
 Create images from hashes.
 
-![icon examples](hash2image-sample.png)
+![icon examples](https://imgur.com/CdrpALy.png)
 
 This is an adaptation of Colin Davis' code at [Robohash.org](https://robohash.org/)
 
