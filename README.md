@@ -39,7 +39,7 @@ and you will get a nice image unique for this text.
 $ git clone https://github.com/tedlaz/hash2image.git
 $ cd hash2image
 $ python3 -m venv venv
-$ source venv/vin/activate
+$ source venv/bin/activate
 $ pip install -r requirements.txt
 $ python
 ```
@@ -51,7 +51,15 @@ import hash2image as hi
 hi.hash2image('your text here', 'coats', size=450)
 ```
 
-and you will get a 450x450 image.
+and you will get a 450x450 image
+
+or from from python tornado server:
+
+```sh
+$ python webfront.py
+```
+
+and open your browser at http://localhost:8099/"your text here"
 
 ### Possible values for parameter set
 
